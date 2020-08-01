@@ -1,12 +1,12 @@
 # JSP 
-
 ### 순서
     인코딩 
     Tocat연결
     Orace DB연결
     테이블 , 값 생성
     ( DB생성 ) 
-    
+    HTML header , footer 생성 
+    header nav 들어가는 모든 file 생성
 ### DB 
     class DB{
         public static Connection getDB() throws Exception{  // DB 연결 
