@@ -16,4 +16,4 @@
       where 조건 
 ## delete 
       delete from 테이블 
-      where 
+      where 조건
