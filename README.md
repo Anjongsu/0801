@@ -1,7 +1,7 @@
 # 0801
 sql
-## asdasdasdasd
+## dml
 
 <code>
-  asdasdasdasd2
+  select 필드 from 테이블 명;
   </code>
