@@ -19,6 +19,11 @@
       floor(필드,몇번째 자리)  round 랑 같음
       sum(필드)  
       avg(필드) 
+### 시퀀스
+      create sequence 시퀀스이름
+      increment by 1 (증가값)
+      start with 1 (초기값)
+      (nextval 증가,currval 값보기 { nextval랑 같이  } )
 ## update 
       update 테이블 set 필드 = 변경값 
       where 조건 
