@@ -7,9 +7,9 @@ sql
   insert into 테이블 명 values(필드값1, ~~2);
   update 테이블명 set 컬럼 where 조건;
   delete from 테이블 명 where 조건;
-  create
-  drop
-  alter
+  create table 테이블 명 (컬럼이름 ,길이, (not null));
+  drop table 테이블명;
+   alter table 테이블명 add 컬럼, drop 컬럼
   grant
   revoke
     </code>
@@ -27,8 +27,8 @@ sql
   avg(*)
   count(*)
   to_char(컬럼 이름, '바꿀값')
-  in, not in (컬럼값)
-  
+  in, not in (컬럼값) 
+  between 15 and 20
   
     </code>
   </pre>
