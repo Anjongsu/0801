@@ -12,6 +12,7 @@ where 조건
 group by 필드 having 조건 
 order by 필드 [desc:내림차순,asc:오름차순]</code></pre>     
 ## update 
-
+      update 테이블 set 필드 = 변경값 
+      where 조건 
 ## delete 
 
