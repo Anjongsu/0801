@@ -5,11 +5,12 @@
 ## insert 
       insert into 테이블 values(필드값,필드값)
 ## select 
-<pre><code>select 필드 from 테이블 
-where 조건 
+<pre><code>select 필드 
+from 테이블 
 join 테이블 on 조건
-group by 필드
-order by 필드 [desc:,asc:오름차순]</code></pre>     
+where 조건 
+group by 필드 having 조건 
+order by 필드 [desc:내림차순,asc:오름차순]</code></pre>     
 ## update 
 
 ## delete 
