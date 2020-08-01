@@ -11,8 +11,14 @@
       where 조건 
       group by 필드 having 조건 
       order by 필드 [desc:내림차순,asc:오름차순]
-<hr>
-
+### 필드 
+      decode(필드명,값1,출력값,기본값)
+      count(필드) { *을 넣어도됨 } 
+      to_char(필드,'변하는 스타일') ex : to_char(1000,'9,999') => 1,000
+      round(필드,몇번째 자리)  ex : round(1,21,1) => 1.3
+      floor(필드,몇번째 자리)  round 랑 같음
+      sum(필드)  
+      avg(필드) 
 ## update 
       update 테이블 set 필드 = 변경값 
       where 조건 
