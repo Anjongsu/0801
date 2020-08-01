@@ -11,6 +11,14 @@
       where 조건 
       group by 필드 having 조건 
       order by 필드 [desc:내림차순,asc:오름차순]
+## 서브쿼리 
+      select 필드 from (서브쿼리)  : 서브쿼리 값이 여러개여도 가능함
+      select (서브쿼리) from 테이블  : 서브쿼리 값이 1개 여야함 
+      select 필드 from 테이블 where 필드 = (서브쿼리)  : 값이 1개 
+      select 필드 from 테이블 where 필드 in (서브쿼리)  : 값이 여러개여도 상관없음
+### 조인
+      left join , right join , inner join
+      left outer join, right outer join, inner outer join
 ### 필드 
       decode(필드명,값1,출력값,기본값)
       count(필드) { *을 넣어도됨 } 
